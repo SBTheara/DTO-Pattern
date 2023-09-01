@@ -1,0 +1,361 @@
+2023-09-01T14:25:23.200+07:00  INFO 11472 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 11472 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:25:23.202+07:00 DEBUG 11472 --- [main] c.m.m.ModelMappingDtoApplication         : Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-01T14:25:23.204+07:00  INFO 11472 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:25:24.076+07:00  INFO 11472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:25:24.151+07:00  INFO 11472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:25:24.680+07:00  INFO 11472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:25:24.703+07:00  INFO 11472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:25:24.704+07:00  INFO 11472 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:25:24.799+07:00  INFO 11472 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:25:24.800+07:00  INFO 11472 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1529 ms
+2023-09-01T14:25:25.291+07:00  INFO 11472 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:25:25.306+07:00  INFO 11472 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:25:25.672+07:00  INFO 11472 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38d525aa
+2023-09-01T14:25:25.674+07:00  INFO 11472 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:25:26.974+07:00  INFO 11472 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:25:27.282+07:00  WARN 11472 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:25:27.395+07:00 DEBUG 11472 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-01T14:25:27.482+07:00 DEBUG 11472 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-09-01T14:25:27.524+07:00 DEBUG 11472 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-01T14:25:27.533+07:00 DEBUG 11472 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-01T14:25:27.655+07:00  INFO 11472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:25:27.664+07:00  INFO 11472 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 5.169 seconds (process running for 6.088)
+2023-09-01T14:25:34.281+07:00  INFO 11472 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T14:25:34.281+07:00  INFO 11472 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T14:25:34.282+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-09-01T14:25:34.282+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-09-01T14:25:34.282+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-09-01T14:25:34.283+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@34be7efb
+2023-09-01T14:25:34.283+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7524125c
+2023-09-01T14:25:34.283+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-01T14:25:34.284+07:00  INFO 11472 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-01T14:25:34.294+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/getUser", parameters={}
+2023-09-01T14:25:34.306+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modelmappingdto.modelmappingdto.controller.UserController#getAllUserLocation()
+2023-09-01T14:25:34.317+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] c.m.m.controller.UserController          : --------Successful get the user information----------
+2023-09-01T14:25:34.501+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2023-09-01T14:25:34.506+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[UserLocationDTO(id=1, email=Thearaholishit@gmail.com, place=Phnom penh, longitude=30.3), UserLocati (truncated)...]
+2023-09-01T14:25:34.593+07:00 DEBUG 11472 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-01T14:26:17.536+07:00 DEBUG 11472 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/getUser", parameters={}
+2023-09-01T14:26:17.536+07:00 DEBUG 11472 --- [http-nio-8888-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modelmappingdto.modelmappingdto.controller.UserController#getAllUserLocation()
+2023-09-01T14:26:17.537+07:00 DEBUG 11472 --- [http-nio-8888-exec-2] c.m.m.controller.UserController          : --------Successful get the user information----------
+2023-09-01T14:26:17.563+07:00 DEBUG 11472 --- [http-nio-8888-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2023-09-01T14:26:17.564+07:00 DEBUG 11472 --- [http-nio-8888-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[UserLocationDTO(id=1, email=Thearaholishit@gmail.com, place=Phnom penh, longitude=30.3), UserLocati (truncated)...]
+2023-09-01T14:26:17.565+07:00 DEBUG 11472 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-01T14:27:18.857+07:00  INFO 11472 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:27:18.859+07:00  INFO 11472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:27:18.867+07:00  INFO 11472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T14:27:25.961+07:00  INFO 760 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 760 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:27:25.963+07:00 DEBUG 760 --- [main] c.m.m.ModelMappingDtoApplication         : Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-01T14:27:25.965+07:00  INFO 760 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:27:26.915+07:00  INFO 760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:27:27.015+07:00  INFO 760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:27:27.753+07:00  INFO 760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:27:27.764+07:00  INFO 760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:27:27.765+07:00  INFO 760 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:27:27.860+07:00  INFO 760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:27:27.861+07:00  INFO 760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1824 ms
+2023-09-01T14:27:28.506+07:00  INFO 760 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:27:28.533+07:00  INFO 760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:27:28.926+07:00  INFO 760 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ad2b274
+2023-09-01T14:27:28.928+07:00  INFO 760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:27:30.207+07:00  INFO 760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:27:30.501+07:00  WARN 760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:27:30.858+07:00  INFO 760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:27:30.868+07:00  INFO 760 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 5.686 seconds (process running for 6.567)
+2023-09-01T14:27:36.067+07:00  INFO 760 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T14:27:36.067+07:00  INFO 760 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T14:27:36.069+07:00  INFO 760 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-01T14:27:36.102+07:00 DEBUG 760 --- [http-nio-8888-exec-1] c.m.m.controller.UserController          : --------Successful get the user information---------- 
+2023-09-01T14:28:24.063+07:00  INFO 760 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:28:24.066+07:00  INFO 760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:28:24.074+07:00  INFO 760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T14:28:27.881+07:00  INFO 14748 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 14748 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:28:27.883+07:00 DEBUG 14748 --- [main] c.m.m.ModelMappingDtoApplication         : Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-01T14:28:27.885+07:00  INFO 14748 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:28:28.800+07:00  INFO 14748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:28:28.872+07:00  INFO 14748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:28:29.454+07:00  INFO 14748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:28:29.469+07:00  INFO 14748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:28:29.469+07:00  INFO 14748 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:28:29.580+07:00  INFO 14748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:28:29.580+07:00  INFO 14748 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1625 ms
+2023-09-01T14:28:30.112+07:00  INFO 14748 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:28:30.129+07:00  INFO 14748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:28:30.482+07:00  INFO 14748 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ad2b274
+2023-09-01T14:28:30.484+07:00  INFO 14748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:28:31.795+07:00  INFO 14748 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:28:32.156+07:00  WARN 14748 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:28:32.574+07:00  INFO 14748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:28:32.583+07:00  INFO 14748 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 5.46 seconds (process running for 6.315)
+2023-09-01T14:28:43.919+07:00  INFO 14748 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T14:28:43.920+07:00  INFO 14748 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T14:28:43.921+07:00  INFO 14748 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-01T14:28:43.956+07:00 DEBUG 14748 --- [http-nio-8888-exec-1] c.m.m.controller.UserController          : --------Successful get the user information---------- 
+2023-09-01T14:29:02.611+07:00  INFO 14748 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:29:02.613+07:00  INFO 14748 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:29:02.620+07:00  INFO 14748 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T14:29:07.628+07:00  INFO 11780 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 11780 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:29:07.632+07:00  INFO 11780 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:29:08.550+07:00  INFO 11780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:29:08.652+07:00  INFO 11780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:29:09.370+07:00  INFO 11780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:29:09.382+07:00  INFO 11780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:29:09.383+07:00  INFO 11780 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:29:09.503+07:00  INFO 11780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:29:09.504+07:00  INFO 11780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1790 ms
+2023-09-01T14:29:10.202+07:00  INFO 11780 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:29:10.224+07:00  INFO 11780 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:29:10.661+07:00  INFO 11780 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75ed7512
+2023-09-01T14:29:10.664+07:00  INFO 11780 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:29:12.065+07:00  INFO 11780 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:29:12.422+07:00  WARN 11780 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:29:12.839+07:00  INFO 11780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:29:12.848+07:00  INFO 11780 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 6.081 seconds (process running for 7.948)
+2023-09-01T14:29:16.970+07:00  INFO 11780 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T14:29:16.970+07:00  INFO 11780 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T14:29:16.971+07:00  INFO 11780 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-01T14:29:43.311+07:00  INFO 11780 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:29:43.313+07:00  INFO 11780 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:29:43.325+07:00  INFO 11780 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T14:29:47.568+07:00  INFO 1040 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 1040 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:29:47.572+07:00  INFO 1040 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:29:48.659+07:00  INFO 1040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:29:48.758+07:00  INFO 1040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:29:49.443+07:00  INFO 1040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:29:49.455+07:00  INFO 1040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:29:49.456+07:00  INFO 1040 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:29:49.569+07:00  INFO 1040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:29:49.570+07:00  INFO 1040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1919 ms
+2023-09-01T14:29:50.198+07:00  INFO 1040 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:29:50.218+07:00  INFO 1040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:29:50.645+07:00  INFO 1040 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fd18419
+2023-09-01T14:29:50.648+07:00  INFO 1040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:29:52.064+07:00  INFO 1040 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:29:52.440+07:00  WARN 1040 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:29:52.869+07:00  INFO 1040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:29:52.878+07:00  INFO 1040 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 6.188 seconds (process running for 7.326)
+2023-09-01T14:29:57.565+07:00  INFO 1040 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T14:29:57.565+07:00  INFO 1040 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T14:29:57.566+07:00  INFO 1040 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-01T14:30:22.642+07:00  INFO 1040 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:30:22.644+07:00  INFO 1040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:30:22.652+07:00  INFO 1040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T14:30:26.668+07:00  INFO 9000 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 9000 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:30:26.671+07:00 DEBUG 9000 --- [main] c.m.m.ModelMappingDtoApplication         : Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-01T14:30:26.673+07:00  INFO 9000 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:30:27.678+07:00  INFO 9000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:30:27.790+07:00  INFO 9000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:30:28.492+07:00  INFO 9000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:30:28.504+07:00  INFO 9000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:30:28.504+07:00  INFO 9000 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:30:28.602+07:00  INFO 9000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:30:28.602+07:00  INFO 9000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1836 ms
+2023-09-01T14:30:29.177+07:00  INFO 9000 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:30:29.195+07:00  INFO 9000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:30:29.612+07:00  INFO 9000 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f9b8129
+2023-09-01T14:30:29.614+07:00  INFO 9000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:30:31.028+07:00  INFO 9000 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:30:31.386+07:00  WARN 9000 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:30:31.528+07:00 DEBUG 9000 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-01T14:30:31.631+07:00 DEBUG 9000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-09-01T14:30:31.656+07:00 DEBUG 9000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-01T14:30:31.665+07:00 DEBUG 9000 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-01T14:30:31.795+07:00  INFO 9000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:30:31.804+07:00  INFO 9000 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 5.924 seconds (process running for 6.93)
+2023-09-01T14:30:45.334+07:00  INFO 9000 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:30:45.336+07:00  INFO 9000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:30:45.343+07:00  INFO 9000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T14:30:49.671+07:00  INFO 11828 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 11828 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:30:49.676+07:00  INFO 11828 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:30:50.731+07:00  INFO 11828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:30:50.841+07:00  INFO 11828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:30:51.497+07:00  INFO 11828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:30:51.510+07:00  INFO 11828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:30:51.510+07:00  INFO 11828 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:30:51.637+07:00  INFO 11828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:30:51.638+07:00  INFO 11828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1883 ms
+2023-09-01T14:30:52.297+07:00  INFO 11828 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:30:52.327+07:00  INFO 11828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:30:52.766+07:00  INFO 11828 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fd18419
+2023-09-01T14:30:52.770+07:00  INFO 11828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:30:54.359+07:00  INFO 11828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:30:54.739+07:00  WARN 11828 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:30:54.889+07:00 DEBUG 11828 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-01T14:30:55.098+07:00 DEBUG 11828 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-09-01T14:30:55.130+07:00 DEBUG 11828 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-01T14:30:55.139+07:00 DEBUG 11828 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-01T14:30:55.304+07:00  INFO 11828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:30:55.324+07:00  INFO 11828 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 6.492 seconds (process running for 7.808)
+2023-09-01T14:30:57.943+07:00  INFO 11828 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T14:30:57.943+07:00  INFO 11828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T14:30:57.944+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-09-01T14:30:57.944+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-09-01T14:30:57.944+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-09-01T14:30:57.945+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2082e0e4
+2023-09-01T14:30:57.945+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6eae3730
+2023-09-01T14:30:57.946+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-01T14:30:57.946+07:00  INFO 11828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-01T14:30:57.958+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/getUser", parameters={}
+2023-09-01T14:30:57.975+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modelmappingdto.modelmappingdto.controller.UserController#getAllUserLocation()
+2023-09-01T14:30:58.261+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2023-09-01T14:30:58.271+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[UserLocationDTO(id=1, email=Thearaholishit@gmail.com, place=Phnom penh, longitude=30.3), UserLocati (truncated)...]
+2023-09-01T14:30:58.347+07:00 DEBUG 11828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-01T14:31:35.193+07:00  INFO 11828 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:31:35.196+07:00  INFO 11828 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:31:35.206+07:00  INFO 11828 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T14:31:39.251+07:00  INFO 8708 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 8708 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:31:39.255+07:00  INFO 8708 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:31:40.299+07:00  INFO 8708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:31:40.379+07:00  INFO 8708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:31:41.069+07:00  INFO 8708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:31:41.082+07:00  INFO 8708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:31:41.083+07:00  INFO 8708 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:31:41.202+07:00  INFO 8708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:31:41.202+07:00  INFO 8708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1868 ms
+2023-09-01T14:31:41.845+07:00  INFO 8708 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:31:41.866+07:00  INFO 8708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:31:42.317+07:00  INFO 8708 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37cfda1c
+2023-09-01T14:31:42.320+07:00  INFO 8708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:31:43.797+07:00  INFO 8708 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:31:44.200+07:00  WARN 8708 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:31:44.346+07:00 DEBUG 8708 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-01T14:31:44.458+07:00 DEBUG 8708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-09-01T14:31:44.488+07:00 DEBUG 8708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-01T14:31:44.513+07:00 DEBUG 8708 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-01T14:31:44.678+07:00  INFO 8708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:31:44.693+07:00  INFO 8708 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 6.372 seconds (process running for 7.633)
+2023-09-01T14:31:49.116+07:00  INFO 8708 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T14:31:49.117+07:00  INFO 8708 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T14:31:49.118+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-09-01T14:31:49.118+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-09-01T14:31:49.119+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-09-01T14:31:49.120+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@16eb93af
+2023-09-01T14:31:49.120+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@726e29d
+2023-09-01T14:31:49.120+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-01T14:31:49.120+07:00  INFO 8708 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-01T14:31:49.131+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/getUser", parameters={}
+2023-09-01T14:31:49.149+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modelmappingdto.modelmappingdto.controller.UserController#getAllUserLocation()
+2023-09-01T14:31:49.478+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2023-09-01T14:31:49.489+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[UserLocationDTO(id=1, email=Thearaholishit@gmail.com, place=Phnom penh, longitude=30.3), UserLocati (truncated)...]
+2023-09-01T14:31:49.588+07:00 DEBUG 8708 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-01T14:31:54.053+07:00  INFO 8708 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:31:54.055+07:00  INFO 8708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:31:54.065+07:00  INFO 8708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T14:31:57.707+07:00  INFO 4572 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 4572 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:31:57.710+07:00  INFO 4572 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:31:58.632+07:00  INFO 4572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:31:58.701+07:00  INFO 4572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:31:59.260+07:00  INFO 4572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:31:59.283+07:00  INFO 4572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:31:59.283+07:00  INFO 4572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:31:59.398+07:00  INFO 4572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:31:59.399+07:00  INFO 4572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1624 ms
+2023-09-01T14:31:59.941+07:00  INFO 4572 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:31:59.957+07:00  INFO 4572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:32:00.321+07:00  INFO 4572 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38d525aa
+2023-09-01T14:32:00.323+07:00  INFO 4572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:32:01.512+07:00  INFO 4572 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:32:01.845+07:00  WARN 4572 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:32:01.951+07:00 DEBUG 4572 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-01T14:32:02.038+07:00 DEBUG 4572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-09-01T14:32:02.089+07:00 DEBUG 4572 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-01T14:32:02.108+07:00 DEBUG 4572 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-01T14:32:02.236+07:00  INFO 4572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:32:02.246+07:00  INFO 4572 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 5.299 seconds (process running for 6.187)
+2023-09-01T14:32:05.851+07:00  INFO 4572 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T14:32:05.852+07:00  INFO 4572 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T14:32:05.852+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-09-01T14:32:05.852+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-09-01T14:32:05.852+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-09-01T14:32:05.853+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3889c343
+2023-09-01T14:32:05.854+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7f39ad3f
+2023-09-01T14:32:05.854+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-01T14:32:05.854+07:00  INFO 4572 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-01T14:32:05.864+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/getUser", parameters={}
+2023-09-01T14:32:05.880+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modelmappingdto.modelmappingdto.controller.UserController#getAllUserLocation()
+2023-09-01T14:32:06.121+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2023-09-01T14:32:06.130+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[UserLocationDTO(id=1, email=Thearaholishit@gmail.com, place=Phnom penh, longitude=30.3), UserLocati (truncated)...]
+2023-09-01T14:32:06.198+07:00 DEBUG 4572 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-01T14:32:32.789+07:00  INFO 4572 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:32:32.791+07:00  INFO 4572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:32:32.799+07:00  INFO 4572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T14:32:36.280+07:00  INFO 2628 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 2628 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:32:36.282+07:00 DEBUG 2628 --- [main] c.m.m.ModelMappingDtoApplication         : Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-01T14:32:36.283+07:00  INFO 2628 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:32:37.264+07:00  INFO 2628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:32:37.345+07:00  INFO 2628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:32:37.906+07:00  INFO 2628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:32:37.942+07:00  INFO 2628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:32:37.942+07:00  INFO 2628 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:32:38.032+07:00  INFO 2628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:32:38.033+07:00  INFO 2628 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1677 ms
+2023-09-01T14:32:38.578+07:00  INFO 2628 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:32:38.599+07:00  INFO 2628 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:32:38.994+07:00  INFO 2628 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ad2b274
+2023-09-01T14:32:38.996+07:00  INFO 2628 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:32:40.486+07:00  INFO 2628 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:32:40.806+07:00  WARN 2628 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:32:40.919+07:00 DEBUG 2628 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-01T14:32:41.033+07:00 DEBUG 2628 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-09-01T14:32:41.062+07:00 DEBUG 2628 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-01T14:32:41.074+07:00 DEBUG 2628 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-01T14:32:41.224+07:00  INFO 2628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:32:41.233+07:00  INFO 2628 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 5.754 seconds (process running for 6.668)
+2023-09-01T14:32:41.859+07:00  INFO 2628 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T14:32:41.859+07:00  INFO 2628 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T14:32:41.859+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-09-01T14:32:41.860+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-09-01T14:32:41.860+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-09-01T14:32:41.860+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@481c1e92
+2023-09-01T14:32:41.861+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@138d978e
+2023-09-01T14:32:41.861+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-01T14:32:41.861+07:00  INFO 2628 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-01T14:32:41.872+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/getUser", parameters={}
+2023-09-01T14:32:41.885+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modelmappingdto.modelmappingdto.controller.UserController#getAllUserLocation()
+2023-09-01T14:32:41.896+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] c.m.m.controller.UserController          : --------Successful get the user information---------- 
+2023-09-01T14:32:42.141+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2023-09-01T14:32:42.152+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[UserLocationDTO(id=1, email=Thearaholishit@gmail.com, place=Phnom penh, longitude=30.3), UserLocati (truncated)...]
+2023-09-01T14:32:42.227+07:00 DEBUG 2628 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-01T14:33:03.128+07:00  INFO 2628 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:33:03.130+07:00  INFO 2628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:33:03.137+07:00  INFO 2628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T14:33:07.007+07:00  INFO 4924 --- [main] c.m.m.ModelMappingDtoApplication         : Starting ModelMappingDtoApplication using Java 17.0.4.1 with PID 4924 (D:\lessons\ModelMappingDTO\target\classes started by Theara in D:\lessons\ModelMappingDTO)
+2023-09-01T14:33:07.010+07:00 DEBUG 4924 --- [main] c.m.m.ModelMappingDtoApplication         : Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-01T14:33:07.020+07:00  INFO 4924 --- [main] c.m.m.ModelMappingDtoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T14:33:07.942+07:00  INFO 4924 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T14:33:08.015+07:00  INFO 4924 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2023-09-01T14:33:08.611+07:00  INFO 4924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-01T14:33:08.622+07:00  INFO 4924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T14:33:08.623+07:00  INFO 4924 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T14:33:08.717+07:00  INFO 4924 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T14:33:08.718+07:00  INFO 4924 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1627 ms
+2023-09-01T14:33:09.249+07:00  INFO 4924 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T14:33:09.265+07:00  INFO 4924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T14:33:09.640+07:00  INFO 4924 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4492b393
+2023-09-01T14:33:09.642+07:00  INFO 4924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T14:33:10.832+07:00  INFO 4924 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:33:11.167+07:00  WARN 4924 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T14:33:11.277+07:00 DEBUG 4924 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-01T14:33:11.374+07:00 DEBUG 4924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-09-01T14:33:11.403+07:00 DEBUG 4924 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-01T14:33:11.413+07:00 DEBUG 4924 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-01T14:33:11.566+07:00  INFO 4924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-01T14:33:11.576+07:00  INFO 4924 --- [main] c.m.m.ModelMappingDtoApplication         : Started ModelMappingDtoApplication in 5.301 seconds (process running for 6.253)
+2023-09-01T14:33:16.005+07:00  INFO 4924 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T14:33:16.006+07:00  INFO 4924 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T14:33:16.006+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-09-01T14:33:16.006+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-09-01T14:33:16.006+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-09-01T14:33:16.007+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@13e5b262
+2023-09-01T14:33:16.007+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@330d16af
+2023-09-01T14:33:16.008+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-09-01T14:33:16.008+07:00  INFO 4924 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-01T14:33:16.018+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/getUser", parameters={}
+2023-09-01T14:33:16.032+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modelmappingdto.modelmappingdto.controller.UserController#getAllUserLocation()
+2023-09-01T14:33:16.057+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] c.m.m.controller.UserController          : --------Successful get the user information---------- 
+2023-09-01T14:33:16.302+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2023-09-01T14:33:16.324+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[UserLocationDTO(id=1, email=Thearaholishit@gmail.com, place=Phnom penh, longitude=30.3), UserLocati (truncated)...]
+2023-09-01T14:33:16.378+07:00 DEBUG 4924 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-09-01T14:33:50.688+07:00  INFO 4924 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T14:33:50.689+07:00  INFO 4924 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T14:33:50.701+07:00  INFO 4924 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3344/pos?sessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION'&jdbcCompliantTruncation=false
+    username: root
+    password: "***Theara2384056***"
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8888
+logging:
+  level:
+    org.springframework.web:  DEBUG
+    com.modelmappingdto.modelmappingdto: DEBUG
+    org.hibernate: ERROR
+  file:
+    path: ./var/log
